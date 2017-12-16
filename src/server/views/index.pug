@@ -1,0 +1,13 @@
+extends app
+
+block link
+  link(rel='stylesheet', href='/dist/entry/css/index.css')
+
+block content
+  h1= title
+  p Welcome12312323123 to #{title}
+  div#app
+    vm-test
+
+  script(src="/dist/entry/commons.js")
+  script(src="/dist/entry/index.js")
