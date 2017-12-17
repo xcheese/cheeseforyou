@@ -1,4 +1,4 @@
-var testController = require('../controller/testController')
+//var testController = require('../controller/testController')
 
 module.exports = function (app) {
     // app.get('/api/test', testController.get);
