@@ -33,7 +33,6 @@ var pluginsConfig = [
 var aliasConfig = {
     vue:__dirname + '/node_modules/vue/dist/vue.esm.js', //优化别名，本地开启devtool
 }
-console.log(entries(__dirname + '/views/entry/*.js'))
 module.exports = {
     entry: entries(__dirname + '/views/entry/*.js'), //通配多入口
     // entry:

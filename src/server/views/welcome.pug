@@ -1,0 +1,11 @@
+extends app
+
+block link
+  link(rel='stylesheet', href='/dist/entry/css/welcome.css')
+
+block content
+  div#app
+    vmpage-welcome
+
+  script(src="/dist/entry/commons.js")
+  script(src="/dist/entry/welcome.js")

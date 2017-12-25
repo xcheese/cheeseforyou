@@ -1,0 +1,51 @@
+
+.vm-btn-publish {
+  width: 100%;
+  height: auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 1px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.vmpage-index .index-box h1 {
+  color: #4d545d;
+  width: 85%;
+}
+.vmpage-index .index-box h2 {
+  color: #919499;
+  width: 85%;
+  max-width: 700px;
+}
+.vmpage-index .index-box .welcome-img {
+  width: 85%;
+  max-width: 960px;
+}
+.vmpage-index .sign-box {
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.08), 0 5px 15px rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  width: 400px;
+  text-align: center;
+  padding: 25px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.vmpage-index .sign-box h1 {
+    color: #333;
+}
+.vmpage-index .icon-box {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+}
+.vmpage-index .vm-btn-publish {
+  padding: 14px 20px;
+  background-color: #ff4906;
+}

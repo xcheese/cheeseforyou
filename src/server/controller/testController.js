@@ -1,11 +1,11 @@
 var userModel = require('../models/test');
 
-function get(req, res, next){
+exports.get = (req, res, next) => {
     console.log(req.query)
     res.json({a:1})
 }
 
-function post(req, res, next){
+exports.post = (req, res, next) => {
     if(req.body.username != undefined && req.body.email != undefined){
         var newUser = new userModel({
             username: req.body.username,
@@ -21,6 +21,3 @@ function post(req, res, next){
     }
 
 }
-
-exports.get = get
-exports.post = post

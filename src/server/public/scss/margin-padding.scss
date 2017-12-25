@@ -1,0 +1,17 @@
+@each $i in (10, 20, 30, 40) {
+  .m#{$i} {
+    margin:#{$i}px;
+  }
+  .p#{$i} {
+    padding:#{$i}px;
+  }
+  @each $short,$direction in (t,top),(r,right),(b,bottom),(l,left){
+    .m#{$short}#{$i} {
+      margin-#{$direction}:#{$i}px !important;
+    }
+    .p#{$short}#{$i} {
+      padding-#{$direction}:#{$i}px !important;;
+    }
+
+  }
+}

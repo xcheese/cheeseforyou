@@ -1,0 +1,11 @@
+extends app
+
+block link
+  link(rel='stylesheet', href='/dist/entry/css/video_detail.css')
+
+block content
+  div#app
+    vmpage-video-detail
+
+  script(src="/dist/entry/commons.js")
+  script(src="/dist/entry/video_detail.js")

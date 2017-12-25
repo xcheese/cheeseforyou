@@ -1,0 +1,40 @@
+@import "var";
+@import "margin-padding";
+@import "flex";
+@import "font";
+html,body{
+  font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+}
+html,body,p,ul,form,pre,h1,h2,h3,h4,h5,h6{margin: 0;padding:0;}
+.text-center{
+  text-align: center;
+}
+.fwb{
+  font-weight: 900;
+}
+.white{
+  color:$color-white;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+.gl-input{
+  padding: 10px;
+  border: 1px solid $color-border;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  outline: 0;
+  transition: all .3s ease-out;
+  border-radius: 1px;
+  &:focus {
+    border: 1px solid $color-border-active;
+  }
+}
